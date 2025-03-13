@@ -27,20 +27,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Debug Environment Variables
-        run: |
-          echo "STAGE is set to: $STAGE"
-          echo "API_TOK is set: [${{ secrets.API_TOK != '' }}]"  # Проверяем, передан ли токен
-        env:
-          STAGE: prod
-          API-TOK: ${{ secrets.API_TOK }}
 
       - name: Run API tests
         env:
-          STAGE: prod
           API-TOK: ${{ secrets.API_TOK }}
         run: |
-          pytest --alluredir=allure-results
+          STAGE=prod pytest --alluredir=allure-results
         
 
       - name: Generate Allure report
