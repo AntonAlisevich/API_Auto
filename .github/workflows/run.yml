@@ -29,10 +29,10 @@ jobs:
 
 
       - name: Run API tests
-        env:
-          API-TOK: ${{ secrets.API_TOK }}
         run: |
           STAGE=prod pytest --alluredir=allure-results
+        env:
+          API_TOK: ${{ secrets.API_TOK }}
         
 
       - name: Generate Allure report
