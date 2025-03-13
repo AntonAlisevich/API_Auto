@@ -1,0 +1,151 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Administration",
+    "children" : [ {
+      "name" : "Games",
+      "children" : [ {
+        "name" : "Get full list of games",
+        "uid" : "afa7e65798e01d45",
+        "parentUid" : "537985e2c3feb86a2939f6049422fdc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877553932,
+          "stop" : 1741877556693,
+          "duration" : 2761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get one game by title",
+        "uid" : "aa414773061c82e0",
+        "parentUid" : "537985e2c3feb86a2939f6049422fdc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877556695,
+          "stop" : 1741877559908,
+          "duration" : 3213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "537985e2c3feb86a2939f6049422fdc6"
+    }, {
+      "name" : "Users",
+      "children" : [ {
+        "name" : "Create new user",
+        "uid" : "6869d38cf9e09e24",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877588984,
+          "stop" : 1741877592229,
+          "duration" : 3245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete created user",
+        "uid" : "d6d336c40b4267ea",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877593144,
+          "stop" : 1741877595682,
+          "duration" : 2538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update created user",
+        "uid" : "ca81017a8bb1ef85",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877596817,
+          "stop" : 1741877600484,
+          "duration" : 3667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login under created user",
+        "uid" : "bbfb74352984a135",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877601483,
+          "stop" : 1741877604390,
+          "duration" : 2907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create full list of users",
+        "uid" : "445f9f99cc8fd75d",
+        "parentUid" : "f64d37a1ed8912c08d6e1530059ab016",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877605295,
+          "stop" : 1741877626107,
+          "duration" : 20812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f64d37a1ed8912c08d6e1530059ab016"
+    }, {
+      "name" : "Wishlist",
+      "children" : [ {
+        "name" : "Getting User's wishlist",
+        "uid" : "31ad9293ad3512a8",
+        "parentUid" : "d02e30c379b9d7ac85503b25efe72c2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877626109,
+          "stop" : 1741877628963,
+          "duration" : 2854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adding game to User's wishlist",
+        "uid" : "220ac0065ee6ee5f",
+        "parentUid" : "d02e30c379b9d7ac85503b25efe72c2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877628965,
+          "stop" : 1741877631702,
+          "duration" : 2737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Removing game from User's wishlist",
+        "uid" : "d43e1febff801129",
+        "parentUid" : "d02e30c379b9d7ac85503b25efe72c2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741877631704,
+          "stop" : 1741877635759,
+          "duration" : 4055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d02e30c379b9d7ac85503b25efe72c2b"
+    } ],
+    "uid" : "93837b4d60bfe3e71ac8002e68360ef6"
+  } ],
+  "name" : "behaviors"
+}
