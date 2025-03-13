@@ -30,6 +30,8 @@ jobs:
       - name: Run API tests
         run: |
           STAGE=prod pytest --alluredir=allure-results
+        env:
+          API-TOK: ${{ secrets.API-TOK }}
 
       - name: Generate Allure report
         uses: simple-elf/allure-report-action@v1
