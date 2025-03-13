@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import requests
 import pytest
 
+
 load_dotenv()
 
 HOST = "https://dev-gs.qa-playground.com/api/v1" if os.environ["STAGE"] == "qa" \

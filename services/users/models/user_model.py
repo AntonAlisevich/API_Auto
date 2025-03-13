@@ -14,13 +14,3 @@ class UserModel(BaseModel):
         else:
             return value
 
-# response = {
-#         "email": "max@gmail.com",
-#         "password": "password",
-#         "name": "Max",
-#         "nickname": "max"
-#     }
-#
-# user = UserModel(**response)
-# print(user.nickname)
-# print(user.name)

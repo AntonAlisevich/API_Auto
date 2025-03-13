@@ -1,43 +1,45 @@
-stages:
-    - tests
-    - report
+name: Run API Tests
 
-variables:
-    STAGE: prod
+on:
+  workflow_dispatch:  # Позволяет запускать вручную через GitHub Actions
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-services:
-    - docker:24.0.5-dind
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
-run_tests:
-    stage: tests
-    image: docker:24.0.5
-    # Раскомметировать before_script после первого тестового прогона
-#    before_script:
-#      - apk add curl jq
-#      - ARTIFACTS_CHECK_URL="https://$CI_SERVER_HOST/api/v4/projects/$CI_PROJECT_ID/jobs/artifacts/$CI_DEFAULT_BRANCH/download?job=pages&private_token=$API_TOK"
-#      - curl -k --location --output artifacts.zip $ARTIFACTS_CHECK_URL
-#      - unzip artifacts.zip
-#      - chmod -R 777 public
-#      - mkdir -p allure-results && cp -r public/history allure-results
-    script:
-        - docker compose up api-tests || true
-    after_script:
-        - docker compose up report
-    artifacts:
-        paths:
-            - allure-report
-        when: on_success
-        expire_in: 10 days
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-pages:
-  stage: report
-  needs:
-    - run_tests
-  script:
-    - mkdir public
-    - cp -r allure-report/* public
-  artifacts:
-    when: on_success
-    expire_in: never
-    paths:
-      - public
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run API tests
+        run: |
+          STAGE=prod pytest --alluredir=allure-results
+
+      - name: Generate Allure report
+        uses: simple-elf/allure-report-action@v1
+        with:
+          allure_results: allure-results
+          allure_report: allure-report
+          allure_history: allure-history
+
+      - name: Deploy Allure report
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.API-TOKEN }}
+          publish_dir: allure-history
