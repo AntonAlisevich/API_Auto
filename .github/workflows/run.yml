@@ -28,11 +28,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API tests
-        run: |
-          STAGE=prod pytest --alluredir=allure-results
         env:
           API-TOK: ${{ secrets.API-TOK }}
           STAGE: prod
+        run: |
+          pytest --alluredir=allure-results
+        
 
       - name: Generate Allure report
         uses: simple-elf/allure-report-action@v1
