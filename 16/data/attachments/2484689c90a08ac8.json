@@ -1,0 +1,13 @@
+{
+    "items": [
+        {
+            "category_uuids": [
+                "78fcb98b-d820-4d79-a049-e2089b7ce87a"
+            ],
+            "price": 999,
+            "title": "The Witcher 3: Wild Hunt",
+            "uuid": "06520f6e-5096-4d49-a044-136357737eff"
+        }
+    ],
+    "user_uuid": "d4ea5154-f67e-41e6-bd37-3c1fd54aa7ae"
+}
