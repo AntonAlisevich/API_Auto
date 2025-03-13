@@ -30,7 +30,7 @@ jobs:
       - name: Debug Environment Variables
         run: |
           echo "STAGE is set to: $STAGE"
-          echo "API-TOK is set: [${{ secrets.API-TOK != '' }}]"  # Проверяем, передан ли токен
+          echo "API-TOK is set: [${{ secrets.API_TOK != '' }}]"  # Проверяем, передан ли токен
         env:
           STAGE: prod
           API-TOK: ${{ secrets.API-TOK }}
@@ -38,7 +38,7 @@ jobs:
       - name: Run API tests
         env:
           STAGE: prod
-          API-TOK: ${{ secrets.API-TOK }}
+          API-TOK: ${{ secrets.API_TOK }}
         run: |
           pytest --alluredir=allure-results
         
