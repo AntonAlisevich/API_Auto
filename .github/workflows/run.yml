@@ -47,7 +47,3 @@ jobs:
         with:
           github_token: ${{ secrets.GIT_HUB_TOKEN }}
           publish_dir: allure-history
-      - name: Trigger GitHub Pages Deployment
-        run: gh workflow run pages-build-deployment.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT_HUB_TOKEN }}
