@@ -39,11 +39,6 @@ jobs:
         env:
           API_TOK: ${{ secrets.API_TOK }}
 
-      - name: Copy Allure history
-        run: |
-          mkdir -p allure-history
-          cp -r allure-report/history allure-history/ || echo "No previous history"
-
       - name: Generate Allure report
         uses: simple-elf/allure-report-action@v1
         with:
@@ -51,6 +46,10 @@ jobs:
           allure_report: allure-report
           allure_history: allure-history
 
+      - name: Copy Allure history
+        run: |
+          mkdir -p allure-history
+          cp -r allure-report/history allure-history/ || echo "No previous history"
 
       - name: Deploy Allure report
         uses: peaceiris/actions-gh-pages@v3
