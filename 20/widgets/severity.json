@@ -1,0 +1,101 @@
+[ {
+  "uid" : "36ba4e5e01fbc15c",
+  "name" : "Get one game by title",
+  "time" : {
+    "start" : 1741962949062,
+    "stop" : 1741962952467,
+    "duration" : 3405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c9285bca721fa12",
+  "name" : "Create full list of users",
+  "time" : {
+    "start" : 1741962998320,
+    "stop" : 1741963020589,
+    "duration" : 22269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73f4f73ff500556d",
+  "name" : "Login under created user",
+  "time" : {
+    "start" : 1741962994189,
+    "stop" : 1741962997488,
+    "duration" : 3299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3af31ccd0d1301",
+  "name" : "Removing game from User's wishlist",
+  "time" : {
+    "start" : 1741963026167,
+    "stop" : 1741963030165,
+    "duration" : 3998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63100363543c267",
+  "name" : "Update created user",
+  "time" : {
+    "start" : 1741962990418,
+    "stop" : 1741962993314,
+    "duration" : 2896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8395d1ef1fb332e",
+  "name" : "Delete created user",
+  "time" : {
+    "start" : 1741962987009,
+    "stop" : 1741962989557,
+    "duration" : 2548
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8b671329e52d497",
+  "name" : "Get full list of games",
+  "time" : {
+    "start" : 1741962945891,
+    "stop" : 1741962949060,
+    "duration" : 3169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "951bad7371c0a4d0",
+  "name" : "Getting User's wishlist",
+  "time" : {
+    "start" : 1741963020592,
+    "stop" : 1741963023208,
+    "duration" : 2616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "909fb54cd0b29fd4",
+  "name" : "Adding game to User's wishlist",
+  "time" : {
+    "start" : 1741963023210,
+    "stop" : 1741963026165,
+    "duration" : 2955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cffb05ece149f94a",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1741962983240,
+    "stop" : 1741962986103,
+    "duration" : 2863
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
