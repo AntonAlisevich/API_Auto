@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1334-837",
+    "children" : [ {
+      "name" : "2562-MainThread",
+      "children" : [ {
+        "name" : "Create new user",
+        "uid" : "7522119fab5a58ad",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966127602,
+          "stop" : 1741966130891,
+          "duration" : 3289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adding game to User's wishlist",
+        "uid" : "f079e936968b89db",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966167768,
+          "stop" : 1741966170883,
+          "duration" : 3115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update created user",
+        "uid" : "31f596cee83f90ee",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966135276,
+          "stop" : 1741966138501,
+          "duration" : 3225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete created user",
+        "uid" : "1e754c9a500cf8",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966131865,
+          "stop" : 1741966134163,
+          "duration" : 2298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get full list of games",
+        "uid" : "e9dd896199454da6",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966090827,
+          "stop" : 1741966094278,
+          "duration" : 3451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Removing game from User's wishlist",
+        "uid" : "3817ed63459a796d",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966170885,
+          "stop" : 1741966175661,
+          "duration" : 4776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login under created user",
+        "uid" : "b15d51eb844797ed",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966139488,
+          "stop" : 1741966143047,
+          "duration" : 3559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create full list of users",
+        "uid" : "5e2c0414aa8c362c",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966144061,
+          "stop" : 1741966165021,
+          "duration" : 20960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Getting User's wishlist",
+        "uid" : "4d751d7fdb3bf29",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966165023,
+          "stop" : 1741966167766,
+          "duration" : 2743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get one game by title",
+        "uid" : "a39e580666eafb55",
+        "parentUid" : "dec5bb97abb0bb1f5430ddb5facf54f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966094280,
+          "stop" : 1741966099540,
+          "duration" : 5260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dec5bb97abb0bb1f5430ddb5facf54f0"
+    } ],
+    "uid" : "5226fe844e905059a6164c478edd9aa0"
+  } ],
+  "name" : "timeline"
+}

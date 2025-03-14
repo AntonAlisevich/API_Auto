@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "5e2c0414aa8c362c",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/5e2c0414aa8c362c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966144061,
+        "stop" : 1741966165021,
+        "duration" : 20960
+      }
+    }, {
       "uid" : "109886cde8c6bed4",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/109886cde8c6bed4",
       "status" : "passed",
@@ -33,11 +42,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "1e754c9a500cf8",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/1e754c9a500cf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966131865,
+        "stop" : 1741966134163,
+        "duration" : 2298
+      }
+    }, {
       "uid" : "d922dacf97db86ea",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/d922dacf97db86ea",
       "status" : "passed",
@@ -62,11 +80,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "b15d51eb844797ed",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/b15d51eb844797ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966139488,
+        "stop" : 1741966143047,
+        "duration" : 3559
+      }
+    }, {
       "uid" : "efcb73d3d01cdfd8",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/efcb73d3d01cdfd8",
       "status" : "passed",
@@ -91,11 +118,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "3817ed63459a796d",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/3817ed63459a796d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966170885,
+        "stop" : 1741966175661,
+        "duration" : 4776
+      }
+    }, {
       "uid" : "8ad6d705111c3d52",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/8ad6d705111c3d52",
       "status" : "passed",
@@ -120,11 +156,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e9dd896199454da6",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/e9dd896199454da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966090827,
+        "stop" : 1741966094278,
+        "duration" : 3451
+      }
+    }, {
       "uid" : "a9496036df363e98",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/a9496036df363e98",
       "status" : "passed",
@@ -149,11 +194,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "31f596cee83f90ee",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/31f596cee83f90ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966135276,
+        "stop" : 1741966138501,
+        "duration" : 3225
+      }
+    }, {
       "uid" : "6187b474e9145da8",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/6187b474e9145da8",
       "status" : "passed",
@@ -178,11 +232,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "4d751d7fdb3bf29",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/4d751d7fdb3bf29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966165023,
+        "stop" : 1741966167766,
+        "duration" : 2743
+      }
+    }, {
       "uid" : "77aaa08617373c28",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/77aaa08617373c28",
       "status" : "passed",
@@ -207,11 +270,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "7522119fab5a58ad",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/7522119fab5a58ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966127602,
+        "stop" : 1741966130891,
+        "duration" : 3289
+      }
+    }, {
       "uid" : "6fd67a50e17af53c",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/6fd67a50e17af53c",
       "status" : "passed",
@@ -236,11 +308,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "a39e580666eafb55",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/a39e580666eafb55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966094280,
+        "stop" : 1741966099540,
+        "duration" : 5260
+      }
+    }, {
       "uid" : "76acf7c77b42dae0",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/76acf7c77b42dae0",
       "status" : "passed",
@@ -265,11 +346,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "f079e936968b89db",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/f079e936968b89db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1741966167768,
+        "stop" : 1741966170883,
+        "duration" : 3115
+      }
+    }, {
       "uid" : "7123ab10064baee3",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/7123ab10064baee3",
       "status" : "passed",

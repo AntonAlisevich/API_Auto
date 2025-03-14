@@ -1,0 +1,101 @@
+[ {
+  "uid" : "f079e936968b89db",
+  "name" : "Adding game to User's wishlist",
+  "time" : {
+    "start" : 1741966167768,
+    "stop" : 1741966170883,
+    "duration" : 3115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d751d7fdb3bf29",
+  "name" : "Getting User's wishlist",
+  "time" : {
+    "start" : 1741966165023,
+    "stop" : 1741966167766,
+    "duration" : 2743
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9dd896199454da6",
+  "name" : "Get full list of games",
+  "time" : {
+    "start" : 1741966090827,
+    "stop" : 1741966094278,
+    "duration" : 3451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e2c0414aa8c362c",
+  "name" : "Create full list of users",
+  "time" : {
+    "start" : 1741966144061,
+    "stop" : 1741966165021,
+    "duration" : 20960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3817ed63459a796d",
+  "name" : "Removing game from User's wishlist",
+  "time" : {
+    "start" : 1741966170885,
+    "stop" : 1741966175661,
+    "duration" : 4776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7522119fab5a58ad",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1741966127602,
+    "stop" : 1741966130891,
+    "duration" : 3289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31f596cee83f90ee",
+  "name" : "Update created user",
+  "time" : {
+    "start" : 1741966135276,
+    "stop" : 1741966138501,
+    "duration" : 3225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e754c9a500cf8",
+  "name" : "Delete created user",
+  "time" : {
+    "start" : 1741966131865,
+    "stop" : 1741966134163,
+    "duration" : 2298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b15d51eb844797ed",
+  "name" : "Login under created user",
+  "time" : {
+    "start" : 1741966139488,
+    "stop" : 1741966143047,
+    "duration" : 3559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a39e580666eafb55",
+  "name" : "Get one game by title",
+  "time" : {
+    "start" : 1741966094280,
+    "stop" : 1741966099540,
+    "duration" : 5260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
