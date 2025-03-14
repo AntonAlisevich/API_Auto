@@ -1,0 +1,248 @@
+{
+  "uid" : "a02b33e031ec518f",
+  "name" : "Adding game to User's wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_add_game_to_user_wishlist",
+  "historyId" : "ebb596076114c8de8917bb584294160e",
+  "time" : {
+    "start" : 1741968010406,
+    "stop" : 1741968014400,
+    "duration" : 3994
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1741968010406,
+      "stop" : 1741968010406,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1741967931582,
+      "stop" : 1741967931583,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select random game uuid from the list",
+      "time" : {
+        "start" : 1741968010406,
+        "stop" : 1741968011456,
+        "duration" : 1050
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Search games",
+        "time" : {
+          "start" : 1741968010406,
+          "stop" : 1741968011456,
+          "duration" : 1050
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get random user uuid",
+      "time" : {
+        "start" : 1741968011457,
+        "stop" : 1741968013211,
+        "duration" : 1754
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get all users",
+        "time" : {
+          "start" : 1741968011457,
+          "stop" : 1741968013211,
+          "duration" : 1754
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Add game to user's wishlist",
+      "time" : {
+        "start" : 1741968013211,
+        "stop" : 1741968014400,
+        "duration" : 1189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a241bbd88efa2f92",
+        "name" : "API Responce",
+        "source" : "a241bbd88efa2f92.json",
+        "type" : "application/json",
+        "size" : 329
+      } ],
+      "parameters" : [ {
+        "name" : "game_uuid",
+        "value" : "'0378c074-92d6-4d8c-b6d3-878c08dbe27f'"
+      }, {
+        "name" : "uuid",
+        "value" : "'eece590d-6fd0-4f2b-8229-d7ec4a859a63'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1741968014401,
+      "stop" : 1741968014401,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1979-486"
+  }, {
+    "name" : "thread",
+    "value" : "2553-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "f079e936968b89db",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/f079e936968b89db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966167768,
+          "stop" : 1741966170883,
+          "duration" : 3115
+        }
+      }, {
+        "uid" : "7123ab10064baee3",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/7123ab10064baee3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964675528,
+          "stop" : 1741964678723,
+          "duration" : 3195
+        }
+      }, {
+        "uid" : "b6236a926698b108",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/21/#testresult/b6236a926698b108",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964119953,
+          "stop" : 1741964123217,
+          "duration" : 3264
+        }
+      } ]
+    },
+    "tags" : [ "regress", "smoke" ]
+  },
+  "source" : "a02b33e031ec518f.json",
+  "parameterValues" : [ ]
+}
