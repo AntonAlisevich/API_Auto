@@ -1,0 +1,243 @@
+{
+  "uid" : "4fb0e6ac0f642d15",
+  "name" : "Removing game from User's wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_remove_game_from_user_wishlist",
+  "historyId" : "084a78894fbd247dcafa94017adc19f9",
+  "time" : {
+    "start" : 1741964123219,
+    "stop" : 1741964127534,
+    "duration" : 4315
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1741964123218,
+      "stop" : 1741964123218,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1741964043326,
+      "stop" : 1741964043327,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Select random game uuid from the list",
+      "time" : {
+        "start" : 1741964123219,
+        "stop" : 1741964124201,
+        "duration" : 982
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Search games",
+        "time" : {
+          "start" : 1741964123219,
+          "stop" : 1741964124201,
+          "duration" : 982
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Get random user uuid",
+      "time" : {
+        "start" : 1741964124201,
+        "stop" : 1741964125097,
+        "duration" : 896
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get all users",
+        "time" : {
+          "start" : 1741964124201,
+          "stop" : 1741964125096,
+          "duration" : 895
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Add game to user's wishlist",
+      "time" : {
+        "start" : 1741964125097,
+        "stop" : 1741964126317,
+        "duration" : 1220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f6d1b4e879e897c",
+        "name" : "API Responce",
+        "source" : "9f6d1b4e879e897c.json",
+        "type" : "application/json",
+        "size" : 329
+      } ],
+      "parameters" : [ {
+        "name" : "game_uuid",
+        "value" : "'0378c074-92d6-4d8c-b6d3-878c08dbe27f'"
+      }, {
+        "name" : "uuid",
+        "value" : "'4adc1faf-f4f5-4de4-84c8-1bdd1b03360c'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Remove game from user's wishlist",
+      "time" : {
+        "start" : 1741964126318,
+        "stop" : 1741964127534,
+        "duration" : 1216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c05911ce94170373",
+        "name" : "API Responce",
+        "source" : "c05911ce94170373.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ {
+        "name" : "game_uuid",
+        "value" : "'0378c074-92d6-4d8c-b6d3-878c08dbe27f'"
+      }, {
+        "name" : "uuid",
+        "value" : "'4adc1faf-f4f5-4de4-84c8-1bdd1b03360c'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "8395894a56acc894",
+      "name" : "stdout",
+      "source" : "8395894a56acc894.txt",
+      "type" : "text/plain",
+      "size" : 224
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1741964127534,
+      "stop" : 1741964127534,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "critical_path"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2023-957"
+  }, {
+    "name" : "thread",
+    "value" : "2553-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "regress", "critical_path" ]
+  },
+  "source" : "4fb0e6ac0f642d15.json",
+  "parameterValues" : [ ]
+}
