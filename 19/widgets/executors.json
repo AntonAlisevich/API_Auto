@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://AntonAlisevich.github.io/API_Auto",
+  "buildOrder" : 19,
+  "buildName" : "GitHub Actions Run #13858738795",
+  "buildUrl" : "https://github.com/AntonAlisevich/API_Auto/actions/runs/13858738795",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/19"
+} ]
