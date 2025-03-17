@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 26,
+  "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/26",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 10
+  }
+}, {
   "buildOrder" : 24,
   "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/24",
   "reportName" : "Allure Report with history",

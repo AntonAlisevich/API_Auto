@@ -1,0 +1,101 @@
+[ {
+  "uid" : "7e8b47c8cb039ff4",
+  "name" : "Create full list of users",
+  "time" : {
+    "start" : 1742205454492,
+    "stop" : 1742205454492,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fae4f7f60a574f9f",
+  "name" : "Update created user",
+  "time" : {
+    "start" : 1742205452367,
+    "stop" : 1742205452367,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8867187a325eca9",
+  "name" : "Adding game to User's wishlist",
+  "time" : {
+    "start" : 1742205456587,
+    "stop" : 1742205457714,
+    "duration" : 1127
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2c3efd0dd29efdd",
+  "name" : "Removing game from User's wishlist",
+  "time" : {
+    "start" : 1742205457720,
+    "stop" : 1742205458641,
+    "duration" : 921
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e25a3d4c287ae398",
+  "name" : "Delete created user",
+  "time" : {
+    "start" : 1742205451173,
+    "stop" : 1742205451173,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "40ed6ee34d4362b",
+  "name" : "Login under created user",
+  "time" : {
+    "start" : 1742205453118,
+    "stop" : 1742205453118,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "172146875ca288e7",
+  "name" : "Getting User's wishlist",
+  "time" : {
+    "start" : 1742205455674,
+    "stop" : 1742205456580,
+    "duration" : 906
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dc9637752fdfe53",
+  "name" : "Get one game by title",
+  "time" : {
+    "start" : 1742205448873,
+    "stop" : 1742205449802,
+    "duration" : 929
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d323d94f09dd3a",
+  "name" : "Get full list of games",
+  "time" : {
+    "start" : 1742205446426,
+    "stop" : 1742205448835,
+    "duration" : 2409
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "883c299406e3dd9e",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1742205449806,
+    "stop" : 1742205449806,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
