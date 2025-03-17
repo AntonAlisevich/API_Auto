@@ -1,0 +1,266 @@
+{
+  "uid" : "ab959bea78aa4558",
+  "name" : "Getting User's wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_user_wishlist",
+  "historyId" : "26c6d8d73050b8c93cd69e0ce56f033d",
+  "time" : {
+    "start" : 1742212559441,
+    "stop" : 1742212562820,
+    "duration" : 3379
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1742212559441,
+      "stop" : 1742212559441,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1742212488748,
+      "stop" : 1742212488749,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get user's wishlist",
+      "time" : {
+        "start" : 1742212559441,
+        "stop" : 1742212562820,
+        "duration" : 3379
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get all users",
+        "time" : {
+          "start" : 1742212559441,
+          "stop" : 1742212560329,
+          "duration" : 888
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Get random user uuid",
+        "time" : {
+          "start" : 1742212560329,
+          "stop" : 1742212561789,
+          "duration" : 1460
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get all users",
+          "time" : {
+            "start" : 1742212560329,
+            "stop" : 1742212561789,
+            "duration" : 1460
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d9790d8833dd11ff",
+        "name" : "API Responce",
+        "source" : "d9790d8833dd11ff.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1742212562820,
+      "stop" : 1742212562820,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1384-406"
+  }, {
+    "name" : "thread",
+    "value" : "2578-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "fc3d78b8f7a60805",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/fc3d78b8f7a60805",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742209493314,
+          "stop" : 1742209494058,
+          "duration" : 744
+        }
+      }, {
+        "uid" : "370ef64c51fc16a",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/370ef64c51fc16a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205689864,
+          "stop" : 1742205690507,
+          "duration" : 643
+        }
+      }, {
+        "uid" : "172146875ca288e7",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/26/#testresult/172146875ca288e7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205455674,
+          "stop" : 1742205456580,
+          "duration" : 906
+        }
+      }, {
+        "uid" : "deb8181d41bd1865",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/24/#testresult/deb8181d41bd1865",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741968007584,
+          "stop" : 1741968010404,
+          "duration" : 2820
+        }
+      }, {
+        "uid" : "4d751d7fdb3bf29",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/4d751d7fdb3bf29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966165023,
+          "stop" : 1741966167766,
+          "duration" : 2743
+        }
+      }, {
+        "uid" : "77aaa08617373c28",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/77aaa08617373c28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964672592,
+          "stop" : 1741964675525,
+          "duration" : 2933
+        }
+      }, {
+        "uid" : "ceff414d7d412dc7",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/21/#testresult/ceff414d7d412dc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964117133,
+          "stop" : 1741964119951,
+          "duration" : 2818
+        }
+      } ]
+    },
+    "tags" : [ "regress", "smoke" ]
+  },
+  "source" : "ab959bea78aa4558.json",
+  "parameterValues" : [ ]
+}

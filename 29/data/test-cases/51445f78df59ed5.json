@@ -1,0 +1,221 @@
+{
+  "uid" : "51445f78df59ed5",
+  "name" : "Get full list of games",
+  "fullName" : "tests.test_games.TestGames#test_get_full_list_of_games",
+  "historyId" : "e5a333c390550ae6fc50838ae298b460",
+  "time" : {
+    "start" : 1742212488750,
+    "stop" : 1742212491317,
+    "duration" : 2567
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1742212488748,
+      "stop" : 1742212488749,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_xunit_setup_method_fixture_TestGames",
+    "time" : {
+      "start" : 1742212488749,
+      "stop" : 1742212488749,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get full list of games",
+      "time" : {
+        "start" : 1742212488750,
+        "stop" : 1742212491317,
+        "duration" : 2567
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f49f8e72201f6010",
+        "name" : "API Responce",
+        "source" : "f49f8e72201f6010.json",
+        "type" : "application/json",
+        "size" : 2577
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestGames::0",
+    "time" : {
+      "start" : 1742212491318,
+      "stop" : 1742212491318,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Games"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_games"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGames"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1384-406"
+  }, {
+    "name" : "thread",
+    "value" : "2578-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_games"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "6dba07a0ac1ab4ac",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/6dba07a0ac1ab4ac",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742209484087,
+          "stop" : 1742209487322,
+          "duration" : 3235
+        }
+      }, {
+        "uid" : "c715c9f7db80c43f",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/c715c9f7db80c43f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205682195,
+          "stop" : 1742205684236,
+          "duration" : 2041
+        }
+      }, {
+        "uid" : "79d323d94f09dd3a",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/26/#testresult/79d323d94f09dd3a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205446426,
+          "stop" : 1742205448835,
+          "duration" : 2409
+        }
+      }, {
+        "uid" : "5180eace80a5f93a",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/24/#testresult/5180eace80a5f93a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741967931583,
+          "stop" : 1741967934359,
+          "duration" : 2776
+        }
+      }, {
+        "uid" : "e9dd896199454da6",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/e9dd896199454da6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966090827,
+          "stop" : 1741966094278,
+          "duration" : 3451
+        }
+      }, {
+        "uid" : "a9496036df363e98",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/a9496036df363e98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964594650,
+          "stop" : 1741964601060,
+          "duration" : 6410
+        }
+      }, {
+        "uid" : "102a965b528e468e",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/21/#testresult/102a965b528e468e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964043328,
+          "stop" : 1741964046268,
+          "duration" : 2940
+        }
+      } ]
+    },
+    "tags" : [ "regress", "smoke" ]
+  },
+  "source" : "51445f78df59ed5.json",
+  "parameterValues" : [ ]
+}

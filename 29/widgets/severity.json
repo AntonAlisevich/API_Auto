@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e44aae85eb9ae1f4",
+  "name" : "Login under created user",
+  "time" : {
+    "start" : 1742212535648,
+    "stop" : 1742212538800,
+    "duration" : 3152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a4f0a67bb41987e",
+  "name" : "Get one game by title",
+  "time" : {
+    "start" : 1742212491319,
+    "stop" : 1742212495633,
+    "duration" : 4314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab959bea78aa4558",
+  "name" : "Getting User's wishlist",
+  "time" : {
+    "start" : 1742212559441,
+    "stop" : 1742212562820,
+    "duration" : 3379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51445f78df59ed5",
+  "name" : "Get full list of games",
+  "time" : {
+    "start" : 1742212488750,
+    "stop" : 1742212491317,
+    "duration" : 2567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a448608191c1a690",
+  "name" : "Create full list of users",
+  "time" : {
+    "start" : 1742212539641,
+    "stop" : 1742212559438,
+    "duration" : 19797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f86ca116d717083",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1742212524220,
+    "stop" : 1742212527557,
+    "duration" : 3337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c4fc77744e20aa9",
+  "name" : "Delete created user",
+  "time" : {
+    "start" : 1742212528506,
+    "stop" : 1742212530893,
+    "duration" : 2387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2492259558ba0fd4",
+  "name" : "Adding game to User's wishlist",
+  "time" : {
+    "start" : 1742212562822,
+    "stop" : 1742212565603,
+    "duration" : 2781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48b34e6d2a26c7b",
+  "name" : "Update created user",
+  "time" : {
+    "start" : 1742212531749,
+    "stop" : 1742212534792,
+    "duration" : 3043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f28c4964663d9e4",
+  "name" : "Removing game from User's wishlist",
+  "time" : {
+    "start" : 1742212565605,
+    "stop" : 1742212569794,
+    "duration" : 4189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
