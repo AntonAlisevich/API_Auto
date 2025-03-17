@@ -1,0 +1,232 @@
+{
+  "uid" : "58e546a1a927a5fe",
+  "name" : "Removing game from User's wishlist",
+  "fullName" : "tests.test_wishlist.TestWishlist#test_remove_game_from_user_wishlist",
+  "historyId" : "084a78894fbd247dcafa94017adc19f9",
+  "time" : {
+    "start" : 1742209494710,
+    "stop" : 1742209495499,
+    "duration" : 789
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+  "statusTrace" : "self = <test_wishlist.TestWishlist object at 0x7f4080123850>\n\n    @pytest.mark.critical_path\n    @pytest.mark.regress\n    @allure.title(\"Removing game from User's wishlist\")\n    def test_remove_game_from_user_wishlist(self):\n>       game_uuid = self.api_games.random_game_uuid()\n\ntests/test_wishlist.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/games/api_games.py:38: in random_game_uuid\n    list_of_uuids = self.search_games()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.games.api_games.GamesAPI object at 0x7f4080ba5390>\n\n    @allure.step(\"Search games\")\n    def search_games(self):\n        response = requests.get(\n            url=self.endpoints.get_games_search,\n            headers=self.headers.basic,\n        )\n>       assert response.status_code == 200, response.json()\nE       AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}\n\nservices/games/api_games.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist",
+    "time" : {
+      "start" : 1742209494710,
+      "stop" : 1742209494710,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1742209484085,
+      "stop" : 1742209484086,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+    "statusTrace" : "self = <test_wishlist.TestWishlist object at 0x7f4080123850>\n\n    @pytest.mark.critical_path\n    @pytest.mark.regress\n    @allure.title(\"Removing game from User's wishlist\")\n    def test_remove_game_from_user_wishlist(self):\n>       game_uuid = self.api_games.random_game_uuid()\n\ntests/test_wishlist.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nservices/games/api_games.py:38: in random_game_uuid\n    list_of_uuids = self.search_games()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <services.games.api_games.GamesAPI object at 0x7f4080ba5390>\n\n    @allure.step(\"Search games\")\n    def search_games(self):\n        response = requests.get(\n            url=self.endpoints.get_games_search,\n            headers=self.headers.basic,\n        )\n>       assert response.status_code == 200, response.json()\nE       AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}\n\nservices/games/api_games.py:33: AssertionError",
+    "steps" : [ {
+      "name" : "Select random game uuid from the list",
+      "time" : {
+        "start" : 1742209494710,
+        "stop" : 1742209495498,
+        "duration" : 788
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}\n",
+      "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.16/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/API_Auto/API_Auto/services/games/api_games.py\", line 38, in random_game_uuid\n    list_of_uuids = self.search_games()\n  File \"/opt/hostedtoolcache/Python/3.10.16/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/API_Auto/API_Auto/services/games/api_games.py\", line 33, in search_games\n    assert response.status_code == 200, response.json()\n",
+      "steps" : [ {
+        "name" : "Search games",
+        "time" : {
+          "start" : 1742209494710,
+          "stop" : 1742209495498,
+          "duration" : 788
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}\n",
+        "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.16/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/home/runner/work/API_Auto/API_Auto/services/games/api_games.py\", line 33, in search_games\n    assert response.status_code == 200, response.json()\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_TestWishlist::0",
+    "time" : {
+      "start" : 1742209495502,
+      "stop" : 1742209495502,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Wishlist"
+  }, {
+    "name" : "epic",
+    "value" : "Administration"
+  }, {
+    "name" : "tag",
+    "value" : "regress"
+  }, {
+    "name" : "tag",
+    "value" : "critical_path"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_wishlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWishlist"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1689-699"
+  }, {
+    "name" : "thread",
+    "value" : "2560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_wishlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f7635e802bd5b281",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/f7635e802bd5b281",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205691362,
+          "stop" : 1742205691969,
+          "duration" : 607
+        }
+      }, {
+        "uid" : "b2c3efd0dd29efdd",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/26/#testresult/b2c3efd0dd29efdd",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+        "time" : {
+          "start" : 1742205457720,
+          "stop" : 1742205458641,
+          "duration" : 921
+        }
+      }, {
+        "uid" : "da3a0d467884cc8",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/24/#testresult/da3a0d467884cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741968014403,
+          "stop" : 1741968018922,
+          "duration" : 4519
+        }
+      }, {
+        "uid" : "3817ed63459a796d",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/23/#testresult/3817ed63459a796d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741966170885,
+          "stop" : 1741966175661,
+          "duration" : 4776
+        }
+      }, {
+        "uid" : "8ad6d705111c3d52",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/22/#testresult/8ad6d705111c3d52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964678725,
+          "stop" : 1741964683099,
+          "duration" : 4374
+        }
+      }, {
+        "uid" : "4fb0e6ac0f642d15",
+        "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/21/#testresult/4fb0e6ac0f642d15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741964123219,
+          "stop" : 1741964127534,
+          "duration" : 4315
+        }
+      } ]
+    },
+    "tags" : [ "regress", "critical_path" ]
+  },
+  "source" : "58e546a1a927a5fe.json",
+  "parameterValues" : [ ]
+}

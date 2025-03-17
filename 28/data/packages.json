@@ -1,0 +1,151 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_games",
+      "children" : [ {
+        "name" : "Get full list of games",
+        "uid" : "6dba07a0ac1ab4ac",
+        "parentUid" : "719f0c948e516cf24a20a2f69d00076b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209484087,
+          "stop" : 1742209487322,
+          "duration" : 3235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get one game by title",
+        "uid" : "7579231c94701529",
+        "parentUid" : "719f0c948e516cf24a20a2f69d00076b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209487360,
+          "stop" : 1742209488974,
+          "duration" : 1614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "719f0c948e516cf24a20a2f69d00076b"
+    }, {
+      "name" : "test_users",
+      "children" : [ {
+        "name" : "Create new user",
+        "uid" : "d8182c8bd932f40e",
+        "parentUid" : "4d21513a05126d005b56fbdbba186ac3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209488978,
+          "stop" : 1742209488978,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete created user",
+        "uid" : "e6b6a39586d874a6",
+        "parentUid" : "4d21513a05126d005b56fbdbba186ac3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209490164,
+          "stop" : 1742209490164,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update created user",
+        "uid" : "55987b24e2acbe18",
+        "parentUid" : "4d21513a05126d005b56fbdbba186ac3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209491093,
+          "stop" : 1742209491093,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login under created user",
+        "uid" : "4c5549bc35de5091",
+        "parentUid" : "4d21513a05126d005b56fbdbba186ac3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209491884,
+          "stop" : 1742209491884,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create full list of users",
+        "uid" : "249ea55a6a8ea157",
+        "parentUid" : "4d21513a05126d005b56fbdbba186ac3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209492706,
+          "stop" : 1742209492706,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d21513a05126d005b56fbdbba186ac3"
+    }, {
+      "name" : "test_wishlist",
+      "children" : [ {
+        "name" : "Getting User's wishlist",
+        "uid" : "fc3d78b8f7a60805",
+        "parentUid" : "0a6ec51eb345b8d5a9dba2bffcdd4589",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209493314,
+          "stop" : 1742209494058,
+          "duration" : 744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Adding game to User's wishlist",
+        "uid" : "f354304c26f6751e",
+        "parentUid" : "0a6ec51eb345b8d5a9dba2bffcdd4589",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209494064,
+          "stop" : 1742209494705,
+          "duration" : 641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Removing game from User's wishlist",
+        "uid" : "58e546a1a927a5fe",
+        "parentUid" : "0a6ec51eb345b8d5a9dba2bffcdd4589",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742209494710,
+          "stop" : 1742209495499,
+          "duration" : 789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a6ec51eb345b8d5a9dba2bffcdd4589"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}

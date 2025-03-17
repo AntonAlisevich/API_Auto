@@ -1,0 +1,163 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_games",
+      "children" : [ {
+        "name" : "TestGames",
+        "children" : [ {
+          "name" : "Get full list of games",
+          "uid" : "6dba07a0ac1ab4ac",
+          "parentUid" : "a97134014b0fc08b59436c81499a5c15",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209484087,
+            "stop" : 1742209487322,
+            "duration" : 3235
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Get one game by title",
+          "uid" : "7579231c94701529",
+          "parentUid" : "a97134014b0fc08b59436c81499a5c15",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209487360,
+            "stop" : 1742209488974,
+            "duration" : 1614
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a97134014b0fc08b59436c81499a5c15"
+      } ],
+      "uid" : "9208af93f3b299fad69a219f361f9af1"
+    }, {
+      "name" : "test_users",
+      "children" : [ {
+        "name" : "TestUsers",
+        "children" : [ {
+          "name" : "Create new user",
+          "uid" : "d8182c8bd932f40e",
+          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209488978,
+            "stop" : 1742209488978,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Delete created user",
+          "uid" : "e6b6a39586d874a6",
+          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209490164,
+            "stop" : 1742209490164,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Update created user",
+          "uid" : "55987b24e2acbe18",
+          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209491093,
+            "stop" : 1742209491093,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Login under created user",
+          "uid" : "4c5549bc35de5091",
+          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209491884,
+            "stop" : 1742209491884,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Create full list of users",
+          "uid" : "249ea55a6a8ea157",
+          "parentUid" : "ebfe1567a4dbf0b698986d0f3c22ee42",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209492706,
+            "stop" : 1742209492706,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ebfe1567a4dbf0b698986d0f3c22ee42"
+      } ],
+      "uid" : "7572430cc09b27d0fc596fe3aa7bce31"
+    }, {
+      "name" : "test_wishlist",
+      "children" : [ {
+        "name" : "TestWishlist",
+        "children" : [ {
+          "name" : "Getting User's wishlist",
+          "uid" : "fc3d78b8f7a60805",
+          "parentUid" : "d7bee258079d090acba452dea48474ab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209493314,
+            "stop" : 1742209494058,
+            "duration" : 744
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Adding game to User's wishlist",
+          "uid" : "f354304c26f6751e",
+          "parentUid" : "d7bee258079d090acba452dea48474ab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209494064,
+            "stop" : 1742209494705,
+            "duration" : 641
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Removing game from User's wishlist",
+          "uid" : "58e546a1a927a5fe",
+          "parentUid" : "d7bee258079d090acba452dea48474ab",
+          "status" : "failed",
+          "time" : {
+            "start" : 1742209494710,
+            "stop" : 1742209495499,
+            "duration" : 789
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d7bee258079d090acba452dea48474ab"
+      } ],
+      "uid" : "a96376f4657cc54d2aea5c02ceff1873"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

@@ -1,14 +1,24 @@
 {
   "4cc969d645cb4e6ad4d8c22095e614ac" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "249ea55a6a8ea157",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/249ea55a6a8ea157",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209492706,
+        "stop" : 1742209492706,
+        "duration" : 0
+      }
+    }, {
       "uid" : "21d5059043e022b0",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/21d5059043e022b0",
       "status" : "failed",
@@ -68,14 +78,24 @@
   },
   "6f3e778a3f95b7678941ec2b2bb01b94" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "e6b6a39586d874a6",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/e6b6a39586d874a6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209490164,
+        "stop" : 1742209490164,
+        "duration" : 0
+      }
+    }, {
       "uid" : "f354849b43f35ad9",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/f354849b43f35ad9",
       "status" : "failed",
@@ -135,14 +155,24 @@
   },
   "6035d0badd178081d833aaaec62418fb" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "4c5549bc35de5091",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/4c5549bc35de5091",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209491884,
+        "stop" : 1742209491884,
+        "duration" : 0
+      }
+    }, {
       "uid" : "3cd0dbe5cdad533b",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/3cd0dbe5cdad533b",
       "status" : "failed",
@@ -202,14 +232,24 @@
   },
   "084a78894fbd247dcafa94017adc19f9" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "58e546a1a927a5fe",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/58e546a1a927a5fe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209494710,
+        "stop" : 1742209495499,
+        "duration" : 789
+      }
+    }, {
       "uid" : "f7635e802bd5b281",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/f7635e802bd5b281",
       "status" : "failed",
@@ -269,14 +309,24 @@
   },
   "e5a333c390550ae6fc50838ae298b460" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6dba07a0ac1ab4ac",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/6dba07a0ac1ab4ac",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209484087,
+        "stop" : 1742209487322,
+        "duration" : 3235
+      }
+    }, {
       "uid" : "c715c9f7db80c43f",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/c715c9f7db80c43f",
       "status" : "failed",
@@ -336,14 +386,24 @@
   },
   "27203c15b0353887295772397967e8ef" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "55987b24e2acbe18",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/55987b24e2acbe18",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209491093,
+        "stop" : 1742209491093,
+        "duration" : 0
+      }
+    }, {
       "uid" : "56db04254d6dff00",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/56db04254d6dff00",
       "status" : "failed",
@@ -403,14 +463,24 @@
   },
   "26c6d8d73050b8c93cd69e0ce56f033d" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "fc3d78b8f7a60805",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/fc3d78b8f7a60805",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209493314,
+        "stop" : 1742209494058,
+        "duration" : 744
+      }
+    }, {
       "uid" : "370ef64c51fc16a",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/370ef64c51fc16a",
       "status" : "failed",
@@ -470,14 +540,24 @@
   },
   "ce0b19f95bcbd1de31b616ddbadc8db8" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d8182c8bd932f40e",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/d8182c8bd932f40e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209488978,
+        "stop" : 1742209488978,
+        "duration" : 0
+      }
+    }, {
       "uid" : "ac042839a49eb531",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/ac042839a49eb531",
       "status" : "failed",
@@ -537,14 +617,24 @@
   },
   "676ed581fb54fa1a21b28676e925d001" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "7579231c94701529",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/7579231c94701529",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209487360,
+        "stop" : 1742209488974,
+        "duration" : 1614
+      }
+    }, {
       "uid" : "dcf995cac07ba3c5",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/dcf995cac07ba3c5",
       "status" : "failed",
@@ -604,14 +694,24 @@
   },
   "ebb596076114c8de8917bb584294160e" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "f354304c26f6751e",
+      "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/28/#testresult/f354304c26f6751e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: {'code': 401, 'message': 'security requirements failed: authentication failed, please set correct \"Bearer\" header'}",
+      "time" : {
+        "start" : 1742209494064,
+        "stop" : 1742209494705,
+        "duration" : 641
+      }
+    }, {
       "uid" : "d55aa68fe4e0123e",
       "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27/#testresult/d55aa68fe4e0123e",
       "status" : "failed",

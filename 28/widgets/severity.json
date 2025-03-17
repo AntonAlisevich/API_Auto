@@ -1,0 +1,101 @@
+[ {
+  "uid" : "f354304c26f6751e",
+  "name" : "Adding game to User's wishlist",
+  "time" : {
+    "start" : 1742209494064,
+    "stop" : 1742209494705,
+    "duration" : 641
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58e546a1a927a5fe",
+  "name" : "Removing game from User's wishlist",
+  "time" : {
+    "start" : 1742209494710,
+    "stop" : 1742209495499,
+    "duration" : 789
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "55987b24e2acbe18",
+  "name" : "Update created user",
+  "time" : {
+    "start" : 1742209491093,
+    "stop" : 1742209491093,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7579231c94701529",
+  "name" : "Get one game by title",
+  "time" : {
+    "start" : 1742209487360,
+    "stop" : 1742209488974,
+    "duration" : 1614
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c5549bc35de5091",
+  "name" : "Login under created user",
+  "time" : {
+    "start" : 1742209491884,
+    "stop" : 1742209491884,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dba07a0ac1ab4ac",
+  "name" : "Get full list of games",
+  "time" : {
+    "start" : 1742209484087,
+    "stop" : 1742209487322,
+    "duration" : 3235
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6b6a39586d874a6",
+  "name" : "Delete created user",
+  "time" : {
+    "start" : 1742209490164,
+    "stop" : 1742209490164,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "249ea55a6a8ea157",
+  "name" : "Create full list of users",
+  "time" : {
+    "start" : 1742209492706,
+    "stop" : 1742209492706,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8182c8bd932f40e",
+  "name" : "Create new user",
+  "time" : {
+    "start" : 1742209488978,
+    "stop" : 1742209488978,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc3d78b8f7a60805",
+  "name" : "Getting User's wishlist",
+  "time" : {
+    "start" : 1742209493314,
+    "stop" : 1742209494058,
+    "duration" : 744
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
