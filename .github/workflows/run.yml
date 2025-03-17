@@ -1,13 +1,13 @@
 name: Run API Tests
 
 on:
-  workflow_dispatch:  # Позволяет запускать вручную через GitHub Actions
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch: 
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   test:
