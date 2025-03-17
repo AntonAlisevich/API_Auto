@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 27,
+  "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/27",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 10,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 26,
   "reportUrl" : "https://AntonAlisevich.github.io/API_Auto/26",
   "reportName" : "Allure Report with history",
