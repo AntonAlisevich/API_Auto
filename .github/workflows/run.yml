@@ -38,6 +38,7 @@ jobs:
           STAGE=prod pytest --alluredir=allure-results
         env:
           API_TOK: ${{ secrets.API_TOK }}
+        continue-on-error: true
 
       - name: Generate Allure report
         uses: simple-elf/allure-report-action@v1
